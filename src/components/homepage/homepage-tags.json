@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_homepage_tags",
+  "info": {
+    "displayName": "homepage_tags"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

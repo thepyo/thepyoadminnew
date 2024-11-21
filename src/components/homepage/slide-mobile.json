@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_slide_mobiles",
+  "info": {
+    "displayName": "slide_mobile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
