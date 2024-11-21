@@ -3,7 +3,7 @@ services:
   strapi:
     container_name: thepyoapi
     build: .
-    image: thepyoapi:latest
+    image: tuannguyen1090/thepyoapi:latest
     restart: unless-stopped
     env_file: .env
     environment:
@@ -39,7 +39,7 @@ services:
     environment:
       PMA_HOST: strapiDB
     ports:
-      - "8080:80"
+      - "8089:80"
     networks:
       - strapi
     depends_on:
