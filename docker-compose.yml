@@ -2,6 +2,7 @@ version: "2.2"
 services:
   strapi:
     container_name: thepyoapi
+    user: root
     build: .
     image: tuannguyen1090/thepyoapi:latest
     restart: unless-stopped
